@@ -27,12 +27,11 @@ class solution extends JFrame {
         f = new JFrame("panel");
 
         // Creating a label to display text
-        l = new JLabel("panel label");
 
         // Creating a new buttons
-        b = new JButton("button1");
-        b1 = new JButton("button2");
-        b2 = new JButton("button3");
+        b = new JButton("SQUARE");
+        b1 = new JButton("OVAL");
+        b2 = new JButton("PARTICLE");
 
         // Creating a panel to add buttons
         JPanel p = new JPanel();
@@ -42,10 +41,9 @@ class solution extends JFrame {
         p.add(b);
         p.add(b1);
         p.add(b2);
-        p.add(l);
 
         // setbackground of panel
-        p.setBackground(Color.red);
+        p.setBackground(Color.WHITE);
 
         // Adding panel to frame
         f.add(p);
